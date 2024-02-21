@@ -1,25 +1,28 @@
-@import url(https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;800;900&display=swap);
-.all{
-    
-}
-body{
+@import url(https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap);
+
+.all {}
+
+body {
     margin: 0px;
     background: #f5f5f5;
 }
-.headh{
+
+.headh {
     width: 1200px;
     background: #FFFFFF;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
-.head{
+
+.head {
     width: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
     background: #FFFFFF;
 }
+
 .nav a {
     color: #292F36;
     font-family: Jost;
@@ -36,41 +39,44 @@ body{
 }
 
 .nav {
-    
+
     justify-content: space-between;
     list-style-type: none;
     display: flex;
 
 
 }
-.nav li{
+
+.nav li {
     margin-left: 50px;
 }
 
-.ad{
-  margin:0 auto; 
-  width: 1440px;
+.ad {
+    margin: 0 auto;
+    width: 1440px;
 }
-.adpng{
 
-}
-.adtextone{
+.adpng {}
+
+.adtextone {
     font-family: 'DM Serif Display', serif;
-    color:  #292F36;
+    color: #292F36;
     font-size: 80px;
     margin-top: -750px;
     margin-left: 120px;
     width: 595px;
-   
+
 }
-.adtexttwo{
+
+.adtexttwo {
     font-family: Jost;
     font-size: 22px;
     color: #4D5053;
     margin-left: 120px;
     margin-top: -50px;
 }
-.adtextthree{
+
+.adtextthree {
     font-family: Jost;
     font-size: 22px;
     color: #4D5053;
@@ -80,6 +86,7 @@ body{
     position: static;
     position: absolute;
 }
+
 .ad [type="button"] {
     color: #FFFFFF;
     font-family: Jost;
@@ -89,29 +96,328 @@ body{
     border-radius: 15px;
     height: 71px;
     border: 0px;
-    width:207px ;
-    background-image:url(./buty.png);
+    width: 207px;
+    background-image: url(./buty.png);
     margin-top: 70px;
     margin-left: 130px;
 }
-.box1{
-  text-align: center;
-  height: 395px;
-  padding: 40px;
+
+.box1 {
+    text-align: center;
+    height: 395px;
+    padding: 40px;
 }
-.box h1{
+
+.box h1 {
     font-family: 'DM Serif Display', serif;
     font-size: 25px;
-    
+
 }
-.box1 p{
+
+.box1 p {
     font-family: Jost;
-   
+
     font-size: 22px;
 }
-.box{
+
+.box {
     display: flex;
     width: 1200px;
     margin: 0 auto;
     margin-top: 270px;
+}
+
+.box1 h6 {
+    color: #4D5053;
+    text-align: center;
+    font-family: 'Jost';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: px;
+    /* 150% */
+    letter-spacing: 0.36px;
+    display: inline;
+
+}
+
+.box1 img {
+    width: 24px;
+    height: 17px;
+    flex-shrink: 0;
+
+}
+
+.boxtwo h1 {
+    color: #292F36;
+    font-family: "DM Serif Display";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px;
+    /* 130% */
+    letter-spacing: 0.22px;
+    width: 450px;
+    display: block;
+    margin-left: -5px;
+
+}
+
+.boxtwo p {
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    /* 150% */
+    letter-spacing: 0.22px;
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 132px;
+    margin: 0;
+}
+
+.boxtwo {
+    width: 600px;
+    height: 100px;
+}
+
+.boxtwobox h1 {
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    /* 150% */
+    letter-spacing: 0.22px;
+    width: 167px;
+}
+
+.boxtwobox {
+    margin-top: 20px;
+    display: inline-flex;
+    padding: 10.203px 264.688px 39.797px 0px;
+    align-items: center;
+    gap: 20px;
+}
+
+.boxtwo [type="button"] {
+    color: #FFF;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 150% */
+    letter-spacing: 0.72px;
+    border-radius: 18px;
+    border: 2px solid #292F36;
+    background: #292F36;
+    width: 263px;
+    height: 71px;
+    flex-shrink: 0;
+    background-image: url(./Buttonarrow.png);
+}
+
+.houseimagek {
+    width: 592px;
+    height: 635px;
+    border-radius: 0px 326px 0px 123px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    text-align: end;
+
+}
+
+.allbox {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: -100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bov {
+    width: 1200px;
+    height: 675px;
+    flex-shrink: 0;
+    border-radius: 70px;
+    background: #F4F0EC;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.bovtext1 {
+    color: #292F36;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58.5px;
+    /* 130% */
+    letter-spacing: 0.22px;
+}
+
+.bovtext2 {
+    color: #292F36;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58.5px;
+    /* 130% */
+    letter-spacing: 0.22px;
+    margin-top: -50px;
+}
+
+.bovetext {
+    margin-left: 0px;
+    padding-top: 70px;
+}
+
+.boxer {
+    width: 354px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFF;
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: top;
+}
+
+.boxer .divboxert {
+    justify-content: space-between;
+    display: flex;
+    padding: 50px 50px 20px;
+    align-items: center;
+}
+
+.boxer .divboxert h1 {
+    margin: 0 0 0px
+}
+
+.boxer img {
+    width: 77px;
+    height: auto;
+    margin-right: 20px;
+
+}
+
+.boxer .divboxert p {
+    margin: 0;
+}
+
+.pin {
+    color: #4D5053;
+    font-family: "Jost";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 150% */
+    letter-spacing: 0.22px;
+
+}
+
+.pin2 {
+    color: #4D5053;
+    font-family: "Jost";
+    font-size: 20px;
+    font-style: normal;
+    padding: 0 50px 20px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+    letter-spacing: 0.22px;
+}
+
+.boxer h1 {
+    color: #292F36;
+
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.5px;
+    /* 150% */
+    letter-spacing: 0.22px;
+}
+
+.pngss {
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.textt {
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+    margin-top: 400px;
+
+}
+
+.textt h1 {
+    color: #292F36;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62.4px;
+    /* 132.766% */
+    letter-spacing: 0.22px;
+}
+
+.texxt p {
+    color: #4D5053;
+    text-align: center;
+    font-family: "Jost";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    /* 150% */
+    letter-spacing: 0.22px;
+}
+
+.rack {
+    display: flex;
+    width: 1500px;
+    padding-top: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 70px;
+    margin: 0 auto;
+}
+
+.bax1 h1 {
+    color: #292F36;
+    font-family: "DM Serif Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.5px;
+    /* 156.25% */
+    letter-spacing: 0.22px;
+}
+
+.bax1 p {
+    color: #4D5053;
+    font-family: "Jost";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    /* 150% */
+    letter-spacing: 0.22px;
+    margin-top: -20px;
+}
+.ark{
+    text-align: end;
+    margin-top: -90px;
 }
