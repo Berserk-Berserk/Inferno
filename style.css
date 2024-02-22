@@ -370,9 +370,10 @@ body {
     line-height: 62.4px;
     /* 132.766% */
     letter-spacing: 0.22px;
+    margin-bottom: 15px;
 }
 
-.texxt p {
+.textt p {
     color: #4D5053;
     text-align: center;
     font-family: "Jost";
@@ -380,8 +381,8 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 33px;
-    /* 150% */
     letter-spacing: 0.22px;
+    margin: 0px 0px 0px 0px;
 }
 
 .rack {
@@ -404,6 +405,7 @@ body {
     line-height: 37.5px;
     /* 156.25% */
     letter-spacing: 0.22px;
+
 }
 
 .bax1 p {
@@ -417,7 +419,173 @@ body {
     letter-spacing: 0.22px;
     margin-top: -20px;
 }
-.ark{
+
+.ark {
     text-align: end;
     margin-top: -90px;
+}
+
+.dak {
+    background: #F4F0EC;
+    margin: 0 auto;
+    width: 1440px;
+    flex-shrink: 0;
+    margin-top: 200px
+}
+
+.ddaakk {
+    width: 1200px;
+    flex-shrink: 0;
+    background: #F4F0EC;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    justify-content: center;
+
+}
+
+.vix h1 {
+    color: #CDA274;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 127.5px;
+    /* 150% */
+    letter-spacing: 1.7px;
+}
+
+.vix p {
+    color: #4D5053;
+    text-align: center;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    /* 150% */
+    letter-spacing: 0.22px;
+    margin-top: -50px;
+}
+
+.vix {
+    border-left: #CDA274 1px solid;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.vix:nth-child(1) {
+    border-left: none;
+}
+
+.tixt h1 {
+    color: #292F36;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62.4px;
+    /* 130% */
+    letter-spacing: 0.22px;
+    margin-bottom: 15px;
+}
+
+.tixt {
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 80px;
+}
+
+.tixt p {
+    color: #4D5053;
+    text-align: center;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    /* 150% */
+    letter-spacing: 0.22px;
+    margin: 0px;
+}
+
+.rar {
+    width: 387px;
+    height: 515px;
+    flex-shrink: 0;
+    border-radius: 62px;
+    border: 1px solid #E7E7E7;
+
+}
+
+.haso {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.rar h1 {
+
+    color: #292F36;
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    /* 140% */
+    letter-spacing: 0.5px;
+    width: 334px;
+}
+
+.rar p {
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.22px;
+}
+
+.hasek {
+    margin-left: 20px;
+}
+
+.arrro {
+    margin-left: 300px;
+    margin-top: -40px;
+}
+
+.ras {
+    display: flex;
+    width: 1220px;
+    height: 1110.781px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 25px;
+}
+
+.haso .cat {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.22px;
+    border-radius: 8px 8px 8px 0px;
+    background: #FFF;
+    padding: 10px;
+
+}
+
+.haso {
+    position: relative;
 }
