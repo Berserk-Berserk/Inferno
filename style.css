@@ -562,10 +562,9 @@ body {
 .ras {
     display: flex;
     width: 1220px;
-    height: 1110.781px;
     flex-wrap: wrap;
     margin: 0 auto;
-    gap: 25px;
+    gap: 19px;
 }
 
 .haso .cat {
@@ -588,4 +587,138 @@ body {
 
 .haso {
     position: relative;
+}
+
+.big {
+    width: 1200px;
+    flex-shrink: 0;
+    border-radius: 70px;
+    background: #292F36;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    padding: 100px 30px;
+}
+
+.big h1 {
+    text-align: center;
+    color: #FFF;
+    font-family: "DM Serif Display";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 75px;
+    /* 150% */
+    letter-spacing: 0.22px;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.big p {
+    color: #FFF;
+    text-align: center;
+    font-family: "Jost";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    /* 150% */
+    letter-spacing: 0.22px;
+
+}
+
+.big [type="button"] {
+    width: 241px;
+    height: 71px;
+    flex-shrink: 0;
+    fill: #CDA274;
+    stroke-width: 2px;
+    stroke: #CDA274;
+    filter: drop-shadow(1px 0px 18px rgba(0, 0, 0, 0.20));
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 150% */
+    letter-spacing: 0.22px;
+    background-color: #CDA274;
+    border: none;
+    border-radius: 20px;
+    background-image: url(./si.png);
+    background-position: 50% 50%;
+}
+
+footer {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+footer .col {
+    width: 210.719px;
+}
+
+footer .col:first-child {
+    width: 393.359px;
+
+}
+
+footer .col:last-child {
+    width: 337.156px;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.col {
+    color: #4D5053;
+
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    /* 150% */
+    letter-spacing: 0.22px;
+
+
+}
+
+footer li{
+    margin-bottom:20px;
+}
+
+.col a:hover {
+    color: #CDA274;
+}
+
+.col a {
+    color: #4D5053;
+    text-decoration: none;
+    font-family: "Jost";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    /* 150% */
+    letter-spacing: 0.22px;
+
+}
+.social ul{
+  display: flex;
+
+}
+.social li{
+    margin-right:  30px;
+}
+.col{
+    margin-top: 200px;
 }
