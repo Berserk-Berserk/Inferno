@@ -692,8 +692,8 @@ footer ul {
 
 }
 
-footer li{
-    margin-bottom:20px;
+footer li {
+    margin-bottom: 20px;
 }
 
 .col a:hover {
@@ -712,13 +712,43 @@ footer li{
     letter-spacing: 0.22px;
 
 }
-.social ul{
-  display: flex;
+
+.social ul {
+    display: flex;
 
 }
-.social li{
-    margin-right:  30px;
+
+.social li {
+    margin-right: 30px;
 }
-.col{
+
+.col {
     margin-top: 200px;
+}
+
+.foter {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    /* 150% */
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    padding: 75px ;
+    border-top:1px solid #e5e5e5 ;
+}
+.foter div{
+    margin: 0px 10px;
+   
+}
+.foteryel{
+    color: #CDA274;
+}
+
+.foteryel2 {
+    color: #CDA274;
 }
